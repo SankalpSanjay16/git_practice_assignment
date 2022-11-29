@@ -2,8 +2,8 @@ let str="MALAYALAM";
 
 let bag="";
 
-for(let i=0; i<=str.length; i--){
-   bag=str[i]+" "+bag;
+for(let i=str.length-1; i>=0; i--){
+   bag=bag+str[i];
 }
 
 
